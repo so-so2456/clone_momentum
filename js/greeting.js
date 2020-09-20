@@ -1,12 +1,12 @@
- const form = document.querySelector(".js-form"),
+const form = document.querySelector(".js-form"),
   input = form.querySelector("input"),
   greeting = document.querySelector(".js-greeting");
 
 const USER_LS = "currentUser",
-  SHOWING_ON = "showing";
+  SHOWING_ON = "middle__showing";
 
 function saveName(text) {
-    localStorage.setItem(USER_LS, text);
+  localStorage.setItem(USER_LS, text);
 }
 
 function handleSubmit(event) {
